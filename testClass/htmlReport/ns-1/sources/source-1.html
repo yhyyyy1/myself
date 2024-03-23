@@ -1,0 +1,191 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=GBK"> 
+  <title>Coverage Report > BinaryTree</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.lab1</a>
+</div>
+
+<h1>Coverage Summary for Class: BinaryTree (org.example.lab1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">BinaryTree</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/45)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.lab1;
+&nbsp;
+&nbsp;import java.util.ArrayDeque;
+&nbsp;import java.util.Deque;
+&nbsp;import java.util.Optional;
+&nbsp;
+&nbsp;public class BinaryTree&lt;T&gt; {
+&nbsp;    public TreeNode&lt;T&gt; root;
+&nbsp;
+<b class="nc">&nbsp;    public BinaryTree() {</b>
+<b class="nc">&nbsp;        this.root = null;</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public BinaryTree(T[] nodes) {</b>
+<b class="nc">&nbsp;        GenerateTree(nodes);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    public void GenerateTree(T[] nodes) {
+<b class="nc">&nbsp;        if (nodes.length == 0 || nodes[0] == null) {</b>
+<b class="nc">&nbsp;            this.root = null;</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        this.root = new TreeNode&lt;&gt;(nodes[0]);</b>
+<b class="nc">&nbsp;        Deque&lt;TreeNode&lt;T&gt;&gt; queue = new ArrayDeque&lt;&gt;();</b>
+<b class="nc">&nbsp;        queue.offer(this.root);</b>
+&nbsp;
+<b class="nc">&nbsp;        int i = 1;</b>
+<b class="nc">&nbsp;        while (i &lt; nodes.length &amp;&amp; !queue.isEmpty()) {</b>
+<b class="nc">&nbsp;            TreeNode&lt;T&gt; current = queue.poll();</b>
+&nbsp;
+<b class="nc">&nbsp;            if (i &lt; nodes.length &amp;&amp; nodes[i] != null) {</b>
+<b class="nc">&nbsp;                current.left = new TreeNode&lt;&gt;(nodes[i]);</b>
+<b class="nc">&nbsp;                queue.offer(current.left);</b>
+&nbsp;            }
+<b class="nc">&nbsp;            i++;</b>
+&nbsp;
+<b class="nc">&nbsp;            if (i &lt; nodes.length &amp;&amp; nodes[i] != null) {</b>
+<b class="nc">&nbsp;                current.right = new TreeNode&lt;&gt;(nodes[i]);</b>
+<b class="nc">&nbsp;                queue.offer(current.right);</b>
+&nbsp;            }
+<b class="nc">&nbsp;            i++;</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;    
+&nbsp;    // show the tree in level order
+&nbsp;    public void printLevelOrder() {
+<b class="nc">&nbsp;        if (this.root == null) {</b>
+<b class="nc">&nbsp;            System.out.println(&quot;The tree is empty&quot;);</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        Deque&lt;Optional&lt;TreeNode&lt;T&gt;&gt;&gt; queue = new ArrayDeque&lt;&gt;();</b>
+<b class="nc">&nbsp;        queue.offer(Optional.of(this.root));</b>
+&nbsp;
+<b class="nc">&nbsp;        int height = treeHeight(this.root);</b>
+<b class="nc">&nbsp;        int level = 0;</b>
+&nbsp;
+<b class="nc">&nbsp;        while (!queue.isEmpty() &amp;&amp; level &lt; height) {</b>
+<b class="nc">&nbsp;            int levelLength = queue.size(); // 当前层的节点数量</b>
+&nbsp;
+<b class="nc">&nbsp;            for (int i = 0; i &lt; levelLength; i++) {</b>
+<b class="nc">&nbsp;                Optional&lt;TreeNode&lt;T&gt;&gt; currentOptional = queue.poll();</b>
+<b class="nc">&nbsp;                if (!currentOptional.isPresent()) {</b>
+<b class="nc">&nbsp;                    System.out.print(&quot;null &quot;);</b>
+<b class="nc">&nbsp;                    queue.offer(Optional.empty());</b>
+<b class="nc">&nbsp;                    queue.offer(Optional.empty());</b>
+&nbsp;                } else {
+<b class="nc">&nbsp;                    TreeNode&lt;T&gt; current = currentOptional.get();</b>
+<b class="nc">&nbsp;                    System.out.print(current.val + &quot; &quot;);</b>
+<b class="nc">&nbsp;                    queue.offer(Optional.ofNullable(current.left));</b>
+<b class="nc">&nbsp;                    queue.offer(Optional.ofNullable(current.right));</b>
+&nbsp;                }
+&nbsp;            }
+<b class="nc">&nbsp;            System.out.println();</b>
+<b class="nc">&nbsp;            level++;</b>
+<b class="nc">&nbsp;        }</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private int treeHeight(TreeNode&lt;T&gt; root) {
+<b class="nc">&nbsp;        if (root == null) {</b>
+<b class="nc">&nbsp;            return 0;</b>
+&nbsp;        }
+<b class="nc">&nbsp;        return 1 + Math.max(treeHeight(root.left), treeHeight(root.right));</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-03-23 20:17</div>
+</div>
+</body>
+</html>

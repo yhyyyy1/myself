@@ -1,0 +1,141 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=GBK"> 
+  <title>Coverage Report > SolutionImpl</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.lab1</a>
+</div>
+
+<h1>Coverage Summary for Class: SolutionImpl (org.example.lab1)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">SolutionImpl</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (11/11)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.lab1;
+&nbsp;
+&nbsp;import org.example.lab1.solution.Solution;
+&nbsp;
+&nbsp;import java.util.ArrayList;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="fc">&nbsp;public class SolutionImpl implements Solution {</b>
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public List&lt;List&lt;Integer&gt;&gt; pathSum(TreeNode&lt;Integer&gt; root, int targetSum) {
+<b class="fc">&nbsp;        List&lt;List&lt;Integer&gt;&gt; paths = new ArrayList&lt;&gt;();</b>
+<b class="fc">&nbsp;        findPaths(root, targetSum, new ArrayList&lt;&gt;(), paths);</b>
+<b class="fc">&nbsp;        return paths;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void findPaths(TreeNode&lt;Integer&gt; node, int sum, List&lt;Integer&gt; currentPath, List&lt;List&lt;Integer&gt;&gt; paths) {
+<b class="fc">&nbsp;        if (node == null) {</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+&nbsp;        // 添加当前节点到路径
+<b class="fc">&nbsp;        currentPath.add(node.val);</b>
+&nbsp;
+&nbsp;        // 检查当前节点是否是叶子节点且路径和等于目标和
+<b class="fc">&nbsp;        if (node.left == null &amp;&amp; node.right == null &amp;&amp; node.val == sum) {</b>
+<b class="fc">&nbsp;            paths.add(new ArrayList&lt;&gt;(currentPath));</b>
+&nbsp;        } else {
+&nbsp;            // 继续递归左右子树
+<b class="fc">&nbsp;            findPaths(node.left, sum - node.val, currentPath, paths);</b>
+<b class="fc">&nbsp;            findPaths(node.right, sum - node.val, currentPath, paths);</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        // 回溯，移除当前节点之前的路径
+<b class="fc">&nbsp;        currentPath.remove(currentPath.size() - 1);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-03-23 20:17</div>
+</div>
+</body>
+</html>
