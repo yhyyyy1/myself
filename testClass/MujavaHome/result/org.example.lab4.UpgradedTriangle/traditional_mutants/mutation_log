@@ -1,0 +1,600 @@
+AORB_1:21:java.lang.String_classifyTriangle(int,int,int):a + b => a * b
+AORB_2:21:java.lang.String_classifyTriangle(int,int,int):a + b => a / b
+AORB_3:21:java.lang.String_classifyTriangle(int,int,int):a + b => a % b
+AORB_4:21:java.lang.String_classifyTriangle(int,int,int):a + b => a - b
+AORB_5:21:java.lang.String_classifyTriangle(int,int,int):a + c => a * c
+AORB_6:21:java.lang.String_classifyTriangle(int,int,int):a + c => a / c
+AORB_7:21:java.lang.String_classifyTriangle(int,int,int):a + c => a % c
+AORB_8:21:java.lang.String_classifyTriangle(int,int,int):a + c => a - c
+AORB_9:21:java.lang.String_classifyTriangle(int,int,int):b + c => b * c
+AORB_10:21:java.lang.String_classifyTriangle(int,int,int):b + c => b / c
+AORB_11:21:java.lang.String_classifyTriangle(int,int,int):b + c => b % c
+AORB_12:21:java.lang.String_classifyTriangle(int,int,int):b + c => b - c
+AORB_13:37:double_calculateArea(int,int,int):a + b => a * b
+AORB_14:37:double_calculateArea(int,int,int):a + b => a / b
+AORB_15:37:double_calculateArea(int,int,int):a + b => a % b
+AORB_16:37:double_calculateArea(int,int,int):a + b => a - b
+AORB_17:37:double_calculateArea(int,int,int):a + c => a * c
+AORB_18:37:double_calculateArea(int,int,int):a + c => a / c
+AORB_19:37:double_calculateArea(int,int,int):a + c => a % c
+AORB_20:37:double_calculateArea(int,int,int):a + c => a - c
+AORB_21:37:double_calculateArea(int,int,int):b + c => b * c
+AORB_22:37:double_calculateArea(int,int,int):b + c => b / c
+AORB_23:37:double_calculateArea(int,int,int):b + c => b % c
+AORB_24:37:double_calculateArea(int,int,int):b + c => b - c
+AORB_25:40:double_calculateArea(int,int,int):a + b => a * b
+AORB_26:40:double_calculateArea(int,int,int):a + b => a / b
+AORB_27:40:double_calculateArea(int,int,int):a + b => a % b
+AORB_28:40:double_calculateArea(int,int,int):a + b => a - b
+AORB_29:40:double_calculateArea(int,int,int):a + b + c => (a + b) * c
+AORB_30:40:double_calculateArea(int,int,int):a + b + c => (a + b) / c
+AORB_31:40:double_calculateArea(int,int,int):a + b + c => (a + b) % c
+AORB_32:40:double_calculateArea(int,int,int):a + b + c => a + b - c
+AORB_33:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => (a + b + c) * 2.0
+AORB_34:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => (a + b + c) % 2.0
+AORB_35:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => a + b + c + 2.0
+AORB_36:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => a + b + c - 2.0
+AORB_37:41:double_calculateArea(int,int,int):s - a => s * a
+AORB_38:41:double_calculateArea(int,int,int):s - a => s / a
+AORB_39:41:double_calculateArea(int,int,int):s - a => s % a
+AORB_40:41:double_calculateArea(int,int,int):s - a => s + a
+AORB_41:41:double_calculateArea(int,int,int):s * (s - a) => s / (s - a)
+AORB_42:41:double_calculateArea(int,int,int):s * (s - a) => s % (s - a)
+AORB_43:41:double_calculateArea(int,int,int):s * (s - a) => s + (s - a)
+AORB_44:41:double_calculateArea(int,int,int):s * (s - a) => s - (s - a)
+AORB_45:41:double_calculateArea(int,int,int):s - b => s * b
+AORB_46:41:double_calculateArea(int,int,int):s - b => s / b
+AORB_47:41:double_calculateArea(int,int,int):s - b => s % b
+AORB_48:41:double_calculateArea(int,int,int):s - b => s + b
+AORB_49:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) => s * (s - a) / (s - b)
+AORB_50:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) => s * (s - a) % (s - b)
+AORB_51:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) => s * (s - a) + (s - b)
+AORB_52:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) => s * (s - a) - (s - b)
+AORB_53:41:double_calculateArea(int,int,int):s - c => s * c
+AORB_54:41:double_calculateArea(int,int,int):s - c => s / c
+AORB_55:41:double_calculateArea(int,int,int):s - c => s % c
+AORB_56:41:double_calculateArea(int,int,int):s - c => s + c
+AORB_57:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) * (s - c) => s * (s - a) * (s - b) / (s - c)
+AORB_58:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) * (s - c) => s * (s - a) * (s - b) % (s - c)
+AORB_59:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) * (s - c) => s * (s - a) * (s - b) + (s - c)
+AORB_60:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) * (s - c) => s * (s - a) * (s - b) - (s - c)
+AOIU_1:40:double_calculateArea(int,int,int):a => -a
+AOIU_2:41:double_calculateArea(int,int,int):s => -s
+AOIU_3:41:double_calculateArea(int,int,int):s => -s
+AOIU_4:41:double_calculateArea(int,int,int):s => -s
+AOIU_5:41:double_calculateArea(int,int,int):s => -s
+AOIS_1:21:java.lang.String_classifyTriangle(int,int,int):a => ++a
+AOIS_2:21:java.lang.String_classifyTriangle(int,int,int):a => --a
+AOIS_3:21:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_4:21:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_5:21:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_6:21:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_7:21:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_8:21:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_9:21:java.lang.String_classifyTriangle(int,int,int):c => ++c
+AOIS_10:21:java.lang.String_classifyTriangle(int,int,int):c => --c
+AOIS_11:21:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_12:21:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_13:21:java.lang.String_classifyTriangle(int,int,int):a => ++a
+AOIS_14:21:java.lang.String_classifyTriangle(int,int,int):a => --a
+AOIS_15:21:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_16:21:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_17:21:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_18:21:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_19:21:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_20:21:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_21:21:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_22:21:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_23:21:java.lang.String_classifyTriangle(int,int,int):a => ++a
+AOIS_24:21:java.lang.String_classifyTriangle(int,int,int):a => --a
+AOIS_25:21:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_26:21:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_27:21:java.lang.String_classifyTriangle(int,int,int):c => ++c
+AOIS_28:21:java.lang.String_classifyTriangle(int,int,int):c => --c
+AOIS_29:21:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_30:21:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_31:21:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_32:21:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_33:21:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_34:21:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_35:21:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_36:21:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_37:21:java.lang.String_classifyTriangle(int,int,int):c => ++c
+AOIS_38:21:java.lang.String_classifyTriangle(int,int,int):c => --c
+AOIS_39:21:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_40:21:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_41:21:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_42:21:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_43:24:java.lang.String_classifyTriangle(int,int,int):a => ++a
+AOIS_44:24:java.lang.String_classifyTriangle(int,int,int):a => --a
+AOIS_45:24:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_46:24:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_47:24:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_48:24:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_49:24:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_50:24:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_51:24:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_52:24:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_53:24:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_54:24:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_55:24:java.lang.String_classifyTriangle(int,int,int):c => ++c
+AOIS_56:24:java.lang.String_classifyTriangle(int,int,int):c => --c
+AOIS_57:24:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_58:24:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_59:27:java.lang.String_classifyTriangle(int,int,int):a => ++a
+AOIS_60:27:java.lang.String_classifyTriangle(int,int,int):a => --a
+AOIS_61:27:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_62:27:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_63:27:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_64:27:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_65:27:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_66:27:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_67:27:java.lang.String_classifyTriangle(int,int,int):a => ++a
+AOIS_68:27:java.lang.String_classifyTriangle(int,int,int):a => --a
+AOIS_69:27:java.lang.String_classifyTriangle(int,int,int):a => a++
+AOIS_70:27:java.lang.String_classifyTriangle(int,int,int):a => a--
+AOIS_71:27:java.lang.String_classifyTriangle(int,int,int):c => ++c
+AOIS_72:27:java.lang.String_classifyTriangle(int,int,int):c => --c
+AOIS_73:27:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_74:27:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_75:27:java.lang.String_classifyTriangle(int,int,int):b => ++b
+AOIS_76:27:java.lang.String_classifyTriangle(int,int,int):b => --b
+AOIS_77:27:java.lang.String_classifyTriangle(int,int,int):b => b++
+AOIS_78:27:java.lang.String_classifyTriangle(int,int,int):b => b--
+AOIS_79:27:java.lang.String_classifyTriangle(int,int,int):c => ++c
+AOIS_80:27:java.lang.String_classifyTriangle(int,int,int):c => --c
+AOIS_81:27:java.lang.String_classifyTriangle(int,int,int):c => c++
+AOIS_82:27:java.lang.String_classifyTriangle(int,int,int):c => c--
+AOIS_83:37:double_calculateArea(int,int,int):a => ++a
+AOIS_84:37:double_calculateArea(int,int,int):a => --a
+AOIS_85:37:double_calculateArea(int,int,int):a => a++
+AOIS_86:37:double_calculateArea(int,int,int):a => a--
+AOIS_87:37:double_calculateArea(int,int,int):b => ++b
+AOIS_88:37:double_calculateArea(int,int,int):b => --b
+AOIS_89:37:double_calculateArea(int,int,int):b => b++
+AOIS_90:37:double_calculateArea(int,int,int):b => b--
+AOIS_91:37:double_calculateArea(int,int,int):c => ++c
+AOIS_92:37:double_calculateArea(int,int,int):c => --c
+AOIS_93:37:double_calculateArea(int,int,int):c => c++
+AOIS_94:37:double_calculateArea(int,int,int):c => c--
+AOIS_95:37:double_calculateArea(int,int,int):a => ++a
+AOIS_96:37:double_calculateArea(int,int,int):a => --a
+AOIS_97:37:double_calculateArea(int,int,int):a => a++
+AOIS_98:37:double_calculateArea(int,int,int):a => a--
+AOIS_99:37:double_calculateArea(int,int,int):b => ++b
+AOIS_100:37:double_calculateArea(int,int,int):b => --b
+AOIS_101:37:double_calculateArea(int,int,int):b => b++
+AOIS_102:37:double_calculateArea(int,int,int):b => b--
+AOIS_103:37:double_calculateArea(int,int,int):c => c++
+AOIS_104:37:double_calculateArea(int,int,int):c => c--
+AOIS_105:37:double_calculateArea(int,int,int):a => ++a
+AOIS_106:37:double_calculateArea(int,int,int):a => --a
+AOIS_107:37:double_calculateArea(int,int,int):a => a++
+AOIS_108:37:double_calculateArea(int,int,int):a => a--
+AOIS_109:37:double_calculateArea(int,int,int):c => ++c
+AOIS_110:37:double_calculateArea(int,int,int):c => --c
+AOIS_111:37:double_calculateArea(int,int,int):c => c++
+AOIS_112:37:double_calculateArea(int,int,int):c => c--
+AOIS_113:37:double_calculateArea(int,int,int):b => b++
+AOIS_114:37:double_calculateArea(int,int,int):b => b--
+AOIS_115:37:double_calculateArea(int,int,int):b => ++b
+AOIS_116:37:double_calculateArea(int,int,int):b => --b
+AOIS_117:37:double_calculateArea(int,int,int):b => b++
+AOIS_118:37:double_calculateArea(int,int,int):b => b--
+AOIS_119:37:double_calculateArea(int,int,int):c => ++c
+AOIS_120:37:double_calculateArea(int,int,int):c => --c
+AOIS_121:37:double_calculateArea(int,int,int):c => c++
+AOIS_122:37:double_calculateArea(int,int,int):c => c--
+AOIS_123:37:double_calculateArea(int,int,int):a => a++
+AOIS_124:37:double_calculateArea(int,int,int):a => a--
+AOIS_125:40:double_calculateArea(int,int,int):a => ++a
+AOIS_126:40:double_calculateArea(int,int,int):a => --a
+AOIS_127:40:double_calculateArea(int,int,int):a => a++
+AOIS_128:40:double_calculateArea(int,int,int):a => a--
+AOIS_129:40:double_calculateArea(int,int,int):b => ++b
+AOIS_130:40:double_calculateArea(int,int,int):b => --b
+AOIS_131:40:double_calculateArea(int,int,int):b => b++
+AOIS_132:40:double_calculateArea(int,int,int):b => b--
+AOIS_133:40:double_calculateArea(int,int,int):c => c++
+AOIS_134:40:double_calculateArea(int,int,int):c => c--
+AOIS_135:41:double_calculateArea(int,int,int):s => ++s
+AOIS_136:41:double_calculateArea(int,int,int):s => --s
+AOIS_137:41:double_calculateArea(int,int,int):s => s++
+AOIS_138:41:double_calculateArea(int,int,int):s => s--
+AOIS_139:41:double_calculateArea(int,int,int):s => ++s
+AOIS_140:41:double_calculateArea(int,int,int):s => --s
+AOIS_141:41:double_calculateArea(int,int,int):s => s++
+AOIS_142:41:double_calculateArea(int,int,int):s => s--
+AOIS_143:41:double_calculateArea(int,int,int):a => ++a
+AOIS_144:41:double_calculateArea(int,int,int):a => --a
+AOIS_145:41:double_calculateArea(int,int,int):a => a++
+AOIS_146:41:double_calculateArea(int,int,int):a => a--
+AOIS_147:41:double_calculateArea(int,int,int):s => ++s
+AOIS_148:41:double_calculateArea(int,int,int):s => --s
+AOIS_149:41:double_calculateArea(int,int,int):s => s++
+AOIS_150:41:double_calculateArea(int,int,int):s => s--
+AOIS_151:41:double_calculateArea(int,int,int):b => ++b
+AOIS_152:41:double_calculateArea(int,int,int):b => --b
+AOIS_153:41:double_calculateArea(int,int,int):b => b++
+AOIS_154:41:double_calculateArea(int,int,int):b => b--
+AOIS_155:41:double_calculateArea(int,int,int):s => ++s
+AOIS_156:41:double_calculateArea(int,int,int):s => --s
+AOIS_157:41:double_calculateArea(int,int,int):s => s++
+AOIS_158:41:double_calculateArea(int,int,int):s => s--
+AOIS_159:41:double_calculateArea(int,int,int):c => ++c
+AOIS_160:41:double_calculateArea(int,int,int):c => --c
+AOIS_161:41:double_calculateArea(int,int,int):c => c++
+AOIS_162:41:double_calculateArea(int,int,int):c => c--
+ROR_1:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   a > 0
+ROR_2:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   a >= 0
+ROR_3:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   a < 0
+ROR_4:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   a == 0
+ROR_5:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   a != 0
+ROR_6:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   true
+ROR_7:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>   false
+ROR_8:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   b > 0
+ROR_9:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   b >= 0
+ROR_10:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   b < 0
+ROR_11:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   b == 0
+ROR_12:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   b != 0
+ROR_13:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   true
+ROR_14:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>   false
+ROR_15:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   c > 0
+ROR_16:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   c >= 0
+ROR_17:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   c < 0
+ROR_18:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   c == 0
+ROR_19:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   c != 0
+ROR_20:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   true
+ROR_21:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>   false
+ROR_22:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   a + b > c
+ROR_23:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   a + b >= c
+ROR_24:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   a + b < c
+ROR_25:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   a + b == c
+ROR_26:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   a + b != c
+ROR_27:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   true
+ROR_28:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>   false
+ROR_29:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   a + c > b
+ROR_30:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   a + c >= b
+ROR_31:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   a + c < b
+ROR_32:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   a + c == b
+ROR_33:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   a + c != b
+ROR_34:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   true
+ROR_35:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>   false
+ROR_36:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   b + c > a
+ROR_37:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   b + c >= a
+ROR_38:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   b + c < a
+ROR_39:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   b + c == a
+ROR_40:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   b + c != a
+ROR_41:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   true
+ROR_42:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>   false
+ROR_43:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a > b
+ROR_44:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a >= b
+ROR_45:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a < b
+ROR_46:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a <= b
+ROR_47:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a != b
+ROR_48:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   true
+ROR_49:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>   false
+ROR_50:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b > c
+ROR_51:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b >= c
+ROR_52:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b < c
+ROR_53:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b <= c
+ROR_54:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b != c
+ROR_55:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   true
+ROR_56:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>   false
+ROR_57:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a > b
+ROR_58:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a >= b
+ROR_59:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a < b
+ROR_60:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a <= b
+ROR_61:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   a != b
+ROR_62:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   true
+ROR_63:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>   false
+ROR_64:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   a > c
+ROR_65:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   a >= c
+ROR_66:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   a < c
+ROR_67:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   a <= c
+ROR_68:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   a != c
+ROR_69:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   true
+ROR_70:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>   false
+ROR_71:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b > c
+ROR_72:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b >= c
+ROR_73:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b < c
+ROR_74:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b <= c
+ROR_75:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   b != c
+ROR_76:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   true
+ROR_77:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>   false
+ROR_78:37:double_calculateArea(int,int,int): a <= 0  =>   a > 0
+ROR_79:37:double_calculateArea(int,int,int): a <= 0  =>   a >= 0
+ROR_80:37:double_calculateArea(int,int,int): a <= 0  =>   a < 0
+ROR_81:37:double_calculateArea(int,int,int): a <= 0  =>   a == 0
+ROR_82:37:double_calculateArea(int,int,int): a <= 0  =>   a != 0
+ROR_83:37:double_calculateArea(int,int,int): a <= 0  =>   true
+ROR_84:37:double_calculateArea(int,int,int): a <= 0  =>   false
+ROR_85:37:double_calculateArea(int,int,int): b <= 0  =>   b > 0
+ROR_86:37:double_calculateArea(int,int,int): b <= 0  =>   b >= 0
+ROR_87:37:double_calculateArea(int,int,int): b <= 0  =>   b < 0
+ROR_88:37:double_calculateArea(int,int,int): b <= 0  =>   b == 0
+ROR_89:37:double_calculateArea(int,int,int): b <= 0  =>   b != 0
+ROR_90:37:double_calculateArea(int,int,int): b <= 0  =>   true
+ROR_91:37:double_calculateArea(int,int,int): b <= 0  =>   false
+ROR_92:37:double_calculateArea(int,int,int): c <= 0  =>   c > 0
+ROR_93:37:double_calculateArea(int,int,int): c <= 0  =>   c >= 0
+ROR_94:37:double_calculateArea(int,int,int): c <= 0  =>   c < 0
+ROR_95:37:double_calculateArea(int,int,int): c <= 0  =>   c == 0
+ROR_96:37:double_calculateArea(int,int,int): c <= 0  =>   c != 0
+ROR_97:37:double_calculateArea(int,int,int): c <= 0  =>   true
+ROR_98:37:double_calculateArea(int,int,int): c <= 0  =>   false
+ROR_99:37:double_calculateArea(int,int,int): a + b <= c  =>   a + b > c
+ROR_100:37:double_calculateArea(int,int,int): a + b <= c  =>   a + b >= c
+ROR_101:37:double_calculateArea(int,int,int): a + b <= c  =>   a + b < c
+ROR_102:37:double_calculateArea(int,int,int): a + b <= c  =>   a + b == c
+ROR_103:37:double_calculateArea(int,int,int): a + b <= c  =>   a + b != c
+ROR_104:37:double_calculateArea(int,int,int): a + b <= c  =>   true
+ROR_105:37:double_calculateArea(int,int,int): a + b <= c  =>   false
+ROR_106:37:double_calculateArea(int,int,int): a + c <= b  =>   a + c > b
+ROR_107:37:double_calculateArea(int,int,int): a + c <= b  =>   a + c >= b
+ROR_108:37:double_calculateArea(int,int,int): a + c <= b  =>   a + c < b
+ROR_109:37:double_calculateArea(int,int,int): a + c <= b  =>   a + c == b
+ROR_110:37:double_calculateArea(int,int,int): a + c <= b  =>   a + c != b
+ROR_111:37:double_calculateArea(int,int,int): a + c <= b  =>   true
+ROR_112:37:double_calculateArea(int,int,int): a + c <= b  =>   false
+ROR_113:37:double_calculateArea(int,int,int): b + c <= a  =>   b + c > a
+ROR_114:37:double_calculateArea(int,int,int): b + c <= a  =>   b + c >= a
+ROR_115:37:double_calculateArea(int,int,int): b + c <= a  =>   b + c < a
+ROR_116:37:double_calculateArea(int,int,int): b + c <= a  =>   b + c == a
+ROR_117:37:double_calculateArea(int,int,int): b + c <= a  =>   b + c != a
+ROR_118:37:double_calculateArea(int,int,int): b + c <= a  =>   true
+ROR_119:37:double_calculateArea(int,int,int): b + c <= a  =>   false
+COR_1:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0  =>   a <= 0 && b <= 0
+COR_2:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0  =>   a <= 0 ^ b <= 0
+COR_3:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) && c <= 0
+COR_4:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) ^ c <= 0
+COR_5:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c  =>   (a <= 0 || b <= 0 || c <= 0) && a + b <= c
+COR_6:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c  =>   (a <= 0 || b <= 0 || c <= 0) ^ a + b <= c
+COR_7:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c) && a + c <= b
+COR_8:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c) ^ a + c <= b
+COR_9:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b) && b + c <= a
+COR_10:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b) ^ b + c <= a
+COR_11:24:java.lang.String_classifyTriangle(int,int,int): a == b && b == c  =>   a == b || b == c
+COR_12:24:java.lang.String_classifyTriangle(int,int,int): a == b && b == c  =>   a == b ^ b == c
+COR_13:27:java.lang.String_classifyTriangle(int,int,int): a == b || a == c  =>   a == b && a == c
+COR_14:27:java.lang.String_classifyTriangle(int,int,int): a == b || a == c  =>   a == b ^ a == c
+COR_15:27:java.lang.String_classifyTriangle(int,int,int): a == b || a == c || b == c  =>   (a == b || a == c) && b == c
+COR_16:27:java.lang.String_classifyTriangle(int,int,int): a == b || a == c || b == c  =>   (a == b || a == c) ^ b == c
+COR_17:37:double_calculateArea(int,int,int): a <= 0 || b <= 0  =>   a <= 0 && b <= 0
+COR_18:37:double_calculateArea(int,int,int): a <= 0 || b <= 0  =>   a <= 0 ^ b <= 0
+COR_19:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) && c <= 0
+COR_20:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) ^ c <= 0
+COR_21:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c  =>   (a <= 0 || b <= 0 || c <= 0) && a + b <= c
+COR_22:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c  =>   (a <= 0 || b <= 0 || c <= 0) ^ a + b <= c
+COR_23:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c) && a + c <= b
+COR_24:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c) ^ a + c <= b
+COR_25:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b) && b + c <= a
+COR_26:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a  =>   (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b) ^ b + c <= a
+COI_1:21:java.lang.String_classifyTriangle(int,int,int): a <= 0  =>  !(a <= 0)
+COI_2:21:java.lang.String_classifyTriangle(int,int,int): b <= 0  =>  !(b <= 0)
+COI_3:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0  =>  !(a <= 0 || b <= 0)
+COI_4:21:java.lang.String_classifyTriangle(int,int,int): c <= 0  =>  !(c <= 0)
+COI_5:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0  =>  !(a <= 0 || b <= 0 || c <= 0)
+COI_6:21:java.lang.String_classifyTriangle(int,int,int): a + b <= c  =>  !(a + b <= c)
+COI_7:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c  =>  !(a <= 0 || b <= 0 || c <= 0 || a + b <= c)
+COI_8:21:java.lang.String_classifyTriangle(int,int,int): a + c <= b  =>  !(a + c <= b)
+COI_9:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b  =>  !(a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b)
+COI_10:21:java.lang.String_classifyTriangle(int,int,int): b + c <= a  =>  !(b + c <= a)
+COI_11:21:java.lang.String_classifyTriangle(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a  =>  !(a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a)
+COI_12:24:java.lang.String_classifyTriangle(int,int,int): a == b  =>  !(a == b)
+COI_13:24:java.lang.String_classifyTriangle(int,int,int): b == c  =>  !(b == c)
+COI_14:24:java.lang.String_classifyTriangle(int,int,int): a == b && b == c  =>  !(a == b && b == c)
+COI_15:27:java.lang.String_classifyTriangle(int,int,int): a == b  =>  !(a == b)
+COI_16:27:java.lang.String_classifyTriangle(int,int,int): a == c  =>  !(a == c)
+COI_17:27:java.lang.String_classifyTriangle(int,int,int): a == b || a == c  =>  !(a == b || a == c)
+COI_18:27:java.lang.String_classifyTriangle(int,int,int): b == c  =>  !(b == c)
+COI_19:27:java.lang.String_classifyTriangle(int,int,int): a == b || a == c || b == c  =>  !(a == b || a == c || b == c)
+COI_20:37:double_calculateArea(int,int,int): a <= 0  =>  !(a <= 0)
+COI_21:37:double_calculateArea(int,int,int): b <= 0  =>  !(b <= 0)
+COI_22:37:double_calculateArea(int,int,int): a <= 0 || b <= 0  =>  !(a <= 0 || b <= 0)
+COI_23:37:double_calculateArea(int,int,int): c <= 0  =>  !(c <= 0)
+COI_24:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0  =>  !(a <= 0 || b <= 0 || c <= 0)
+COI_25:37:double_calculateArea(int,int,int): a + b <= c  =>  !(a + b <= c)
+COI_26:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c  =>  !(a <= 0 || b <= 0 || c <= 0 || a + b <= c)
+COI_27:37:double_calculateArea(int,int,int): a + c <= b  =>  !(a + c <= b)
+COI_28:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b  =>  !(a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b)
+COI_29:37:double_calculateArea(int,int,int): b + c <= a  =>  !(b + c <= a)
+COI_30:37:double_calculateArea(int,int,int): a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a  =>  !(a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a)
+LOI_1:21:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_2:21:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_3:21:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_4:21:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_5:21:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_6:21:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_7:21:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_8:21:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_9:21:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_10:21:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_11:21:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_12:21:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_13:24:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_14:24:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_15:24:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_16:24:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_17:27:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_18:27:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_19:27:java.lang.String_classifyTriangle(int,int,int):a => ~a
+LOI_20:27:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_21:27:java.lang.String_classifyTriangle(int,int,int):b => ~b
+LOI_22:27:java.lang.String_classifyTriangle(int,int,int):c => ~c
+LOI_23:37:double_calculateArea(int,int,int):a => ~a
+LOI_24:37:double_calculateArea(int,int,int):b => ~b
+LOI_25:37:double_calculateArea(int,int,int):c => ~c
+LOI_26:37:double_calculateArea(int,int,int):a => ~a
+LOI_27:37:double_calculateArea(int,int,int):b => ~b
+LOI_28:37:double_calculateArea(int,int,int):c => ~c
+LOI_29:37:double_calculateArea(int,int,int):a => ~a
+LOI_30:37:double_calculateArea(int,int,int):c => ~c
+LOI_31:37:double_calculateArea(int,int,int):b => ~b
+LOI_32:37:double_calculateArea(int,int,int):b => ~b
+LOI_33:37:double_calculateArea(int,int,int):c => ~c
+LOI_34:37:double_calculateArea(int,int,int):a => ~a
+LOI_35:40:double_calculateArea(int,int,int):a => ~a
+LOI_36:40:double_calculateArea(int,int,int):b => ~b
+LOI_37:40:double_calculateArea(int,int,int):c => ~c
+LOI_38:41:double_calculateArea(int,int,int):s => ~s
+LOI_39:41:double_calculateArea(int,int,int):s => ~s
+LOI_40:41:double_calculateArea(int,int,int):a => ~a
+LOI_41:41:double_calculateArea(int,int,int):s => ~s
+LOI_42:41:double_calculateArea(int,int,int):b => ~b
+LOI_43:41:double_calculateArea(int,int,int):s => ~s
+LOI_44:41:double_calculateArea(int,int,int):c => ~c
+SDL_1:30:java.lang.String_classifyTriangle(int,int,int): if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {     return \"INVALID\"; } if (a == b && b == c) {     return \"EQUILATERAL\"; } else {     if (a == b || a == c || b == c) {         return \"ISOSCELES\";     } else {         return \"SCALENE\";     } }  =>   if (a == b && b == c) {     return \"EQUILATERAL\"; } else {     if (a == b || a == c || b == c) {         return \"ISOSCELES\";     } else {         return \"SCALENE\";     } }
+SDL_2:24:java.lang.String_classifyTriangle(int,int,int): if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {     return \"INVALID\"; } if (a == b && b == c) {     return \"EQUILATERAL\"; } else {     if (a == b || a == c || b == c) {         return \"ISOSCELES\";     } else {         return \"SCALENE\";     } }  =>   if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {     return \"INVALID\"; }
+SDL_3:24:java.lang.String_classifyTriangle(int,int,int): if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {     return \"INVALID\"; }  =>   if (true) {     return \"INVALID\"; }
+SDL_4:23:java.lang.String_classifyTriangle(int,int,int): return \"INVALID\";  =>   return \"\";
+SDL_5:33:java.lang.String_classifyTriangle(int,int,int): if (a == b && b == c) {     return \"EQUILATERAL\"; } else {     if (a == b || a == c || b == c) {         return \"ISOSCELES\";     } else {         return \"SCALENE\";     } }  =>   if (true) {     return \"EQUILATERAL\"; } else {     if (a == b || a == c || b == c) {         return \"ISOSCELES\";     } else {         return \"SCALENE\";     } }
+SDL_6:27:java.lang.String_classifyTriangle(int,int,int): if (a == b || a == c || b == c) {     return \"ISOSCELES\"; } else {     return \"SCALENE\"; }  =>  
+SDL_7:26:java.lang.String_classifyTriangle(int,int,int): return \"EQUILATERAL\";  =>   return \"\";
+SDL_8:32:java.lang.String_classifyTriangle(int,int,int): if (a == b || a == c || b == c) {     return \"ISOSCELES\"; } else {     return \"SCALENE\"; }  =>   if (true) {     return \"ISOSCELES\"; } else {     return \"SCALENE\"; }
+SDL_9:29:java.lang.String_classifyTriangle(int,int,int): return \"ISOSCELES\";  =>   return \"\";
+SDL_10:31:java.lang.String_classifyTriangle(int,int,int): return \"SCALENE\";  =>   return \"\";
+SDL_11:39:double_calculateArea(int,int,int): if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {     return 0; } double s = (a + b + c) / 2.0; return Math.sqrt( s * (s - a) * (s - b) * (s - c) );  =>   double s = (a + b + c) / 2.0; return Math.sqrt( s * (s - a) * (s - b) * (s - c) );
+SDL_12:40:double_calculateArea(int,int,int): if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {     return 0; }  =>   if (true) {     return 0; }
+SDL_13:42:double_calculateArea(int,int,int): return Math.sqrt( s * (s - a) * (s - b) * (s - c) );  =>   return 0;
+VDL_1:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 => 0
+VDL_2:21:java.lang.String_classifyTriangle(int,int,int):b <= 0 => 0
+VDL_3:21:java.lang.String_classifyTriangle(int,int,int):c <= 0 => 0
+VDL_4:21:java.lang.String_classifyTriangle(int,int,int):a + b => b
+VDL_5:21:java.lang.String_classifyTriangle(int,int,int):a + b => a
+VDL_6:21:java.lang.String_classifyTriangle(int,int,int):a + b <= c => a + b
+VDL_7:21:java.lang.String_classifyTriangle(int,int,int):a + c => c
+VDL_8:21:java.lang.String_classifyTriangle(int,int,int):a + c => a
+VDL_9:21:java.lang.String_classifyTriangle(int,int,int):a + c <= b => a + c
+VDL_10:21:java.lang.String_classifyTriangle(int,int,int):b + c => c
+VDL_11:21:java.lang.String_classifyTriangle(int,int,int):b + c => b
+VDL_12:21:java.lang.String_classifyTriangle(int,int,int):b + c <= a => b + c
+VDL_13:24:java.lang.String_classifyTriangle(int,int,int):a == b => b
+VDL_14:24:java.lang.String_classifyTriangle(int,int,int):a == b => a
+VDL_15:24:java.lang.String_classifyTriangle(int,int,int):b == c => c
+VDL_16:24:java.lang.String_classifyTriangle(int,int,int):b == c => b
+VDL_17:27:java.lang.String_classifyTriangle(int,int,int):a == b => b
+VDL_18:27:java.lang.String_classifyTriangle(int,int,int):a == b => a
+VDL_19:27:java.lang.String_classifyTriangle(int,int,int):a == c => c
+VDL_20:27:java.lang.String_classifyTriangle(int,int,int):a == c => a
+VDL_21:27:java.lang.String_classifyTriangle(int,int,int):b == c => c
+VDL_22:27:java.lang.String_classifyTriangle(int,int,int):b == c => b
+VDL_23:37:double_calculateArea(int,int,int):a <= 0 => 0
+VDL_24:37:double_calculateArea(int,int,int):b <= 0 => 0
+VDL_25:37:double_calculateArea(int,int,int):c <= 0 => 0
+VDL_26:37:double_calculateArea(int,int,int):a + b => b
+VDL_27:37:double_calculateArea(int,int,int):a + b => a
+VDL_28:37:double_calculateArea(int,int,int):a + b <= c => a + b
+VDL_29:37:double_calculateArea(int,int,int):a + c => c
+VDL_30:37:double_calculateArea(int,int,int):a + c => a
+VDL_31:37:double_calculateArea(int,int,int):a + c <= b => a + c
+VDL_32:37:double_calculateArea(int,int,int):b + c => c
+VDL_33:37:double_calculateArea(int,int,int):b + c => b
+VDL_34:37:double_calculateArea(int,int,int):b + c <= a => b + c
+VDL_35:40:double_calculateArea(int,int,int):a + b => b
+VDL_36:40:double_calculateArea(int,int,int):a + b => a
+VDL_37:40:double_calculateArea(int,int,int):a + b + c => a + b
+VDL_38:41:double_calculateArea(int,int,int):s - a => a
+VDL_39:41:double_calculateArea(int,int,int):s - a => s
+VDL_40:41:double_calculateArea(int,int,int):s * (s - a) => s - a
+VDL_41:41:double_calculateArea(int,int,int):s - b => b
+VDL_42:41:double_calculateArea(int,int,int):s - b => s
+VDL_43:41:double_calculateArea(int,int,int):s - c => c
+VDL_44:41:double_calculateArea(int,int,int):s - c => s
+ODL_1:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 => a
+ODL_2:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 => 0
+ODL_3:21:java.lang.String_classifyTriangle(int,int,int):b <= 0 => b
+ODL_4:21:java.lang.String_classifyTriangle(int,int,int):b <= 0 => 0
+ODL_5:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 => a <= 0
+ODL_6:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 => b <= 0
+ODL_7:21:java.lang.String_classifyTriangle(int,int,int):c <= 0 => c
+ODL_8:21:java.lang.String_classifyTriangle(int,int,int):c <= 0 => 0
+ODL_9:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 => a <= 0 || b <= 0
+ODL_10:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 => c <= 0
+ODL_11:21:java.lang.String_classifyTriangle(int,int,int):a + b => a
+ODL_12:21:java.lang.String_classifyTriangle(int,int,int):a + b => b
+ODL_13:21:java.lang.String_classifyTriangle(int,int,int):a + b <= c => a + b
+ODL_14:21:java.lang.String_classifyTriangle(int,int,int):a + b <= c => c
+ODL_15:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c => a <= 0 || b <= 0 || c <= 0
+ODL_16:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c => a + b <= c
+ODL_17:21:java.lang.String_classifyTriangle(int,int,int):a + c => a
+ODL_18:21:java.lang.String_classifyTriangle(int,int,int):a + c => c
+ODL_19:21:java.lang.String_classifyTriangle(int,int,int):a + c <= b => a + c
+ODL_20:21:java.lang.String_classifyTriangle(int,int,int):a + c <= b => b
+ODL_21:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b => a <= 0 || b <= 0 || c <= 0 || a + b <= c
+ODL_22:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b => a + c <= b
+ODL_23:21:java.lang.String_classifyTriangle(int,int,int):b + c => b
+ODL_24:21:java.lang.String_classifyTriangle(int,int,int):b + c => c
+ODL_25:21:java.lang.String_classifyTriangle(int,int,int):b + c <= a => b + c
+ODL_26:21:java.lang.String_classifyTriangle(int,int,int):b + c <= a => a
+ODL_27:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a => a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b
+ODL_28:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a => b + c <= a
+ODL_29:24:java.lang.String_classifyTriangle(int,int,int):a == b => a
+ODL_30:24:java.lang.String_classifyTriangle(int,int,int):a == b => b
+ODL_31:24:java.lang.String_classifyTriangle(int,int,int):b == c => b
+ODL_32:24:java.lang.String_classifyTriangle(int,int,int):b == c => c
+ODL_33:24:java.lang.String_classifyTriangle(int,int,int):a == b && b == c => a == b
+ODL_34:24:java.lang.String_classifyTriangle(int,int,int):a == b && b == c => b == c
+ODL_35:27:java.lang.String_classifyTriangle(int,int,int):a == b => a
+ODL_36:27:java.lang.String_classifyTriangle(int,int,int):a == b => b
+ODL_37:27:java.lang.String_classifyTriangle(int,int,int):a == c => a
+ODL_38:27:java.lang.String_classifyTriangle(int,int,int):a == c => c
+ODL_39:27:java.lang.String_classifyTriangle(int,int,int):a == b || a == c => a == b
+ODL_40:27:java.lang.String_classifyTriangle(int,int,int):a == b || a == c => a == c
+ODL_41:27:java.lang.String_classifyTriangle(int,int,int):b == c => b
+ODL_42:27:java.lang.String_classifyTriangle(int,int,int):b == c => c
+ODL_43:27:java.lang.String_classifyTriangle(int,int,int):a == b || a == c || b == c => a == b || a == c
+ODL_44:27:java.lang.String_classifyTriangle(int,int,int):a == b || a == c || b == c => b == c
+ODL_45:37:double_calculateArea(int,int,int):a <= 0 => a
+ODL_46:37:double_calculateArea(int,int,int):a <= 0 => 0
+ODL_47:37:double_calculateArea(int,int,int):b <= 0 => b
+ODL_48:37:double_calculateArea(int,int,int):b <= 0 => 0
+ODL_49:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 => a <= 0
+ODL_50:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 => b <= 0
+ODL_51:37:double_calculateArea(int,int,int):c <= 0 => c
+ODL_52:37:double_calculateArea(int,int,int):c <= 0 => 0
+ODL_53:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 => a <= 0 || b <= 0
+ODL_54:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 => c <= 0
+ODL_55:37:double_calculateArea(int,int,int):a + b => a
+ODL_56:37:double_calculateArea(int,int,int):a + b => b
+ODL_57:37:double_calculateArea(int,int,int):a + b <= c => a + b
+ODL_58:37:double_calculateArea(int,int,int):a + b <= c => c
+ODL_59:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c => a <= 0 || b <= 0 || c <= 0
+ODL_60:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c => a + b <= c
+ODL_61:37:double_calculateArea(int,int,int):a + c => a
+ODL_62:37:double_calculateArea(int,int,int):a + c => c
+ODL_63:37:double_calculateArea(int,int,int):a + c <= b => a + c
+ODL_64:37:double_calculateArea(int,int,int):a + c <= b => b
+ODL_65:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b => a <= 0 || b <= 0 || c <= 0 || a + b <= c
+ODL_66:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b => a + c <= b
+ODL_67:37:double_calculateArea(int,int,int):b + c => b
+ODL_68:37:double_calculateArea(int,int,int):b + c => c
+ODL_69:37:double_calculateArea(int,int,int):b + c <= a => b + c
+ODL_70:37:double_calculateArea(int,int,int):b + c <= a => a
+ODL_71:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a => a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b
+ODL_72:37:double_calculateArea(int,int,int):a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a => b + c <= a
+ODL_73:40:double_calculateArea(int,int,int):a + b => a
+ODL_74:40:double_calculateArea(int,int,int):a + b => b
+ODL_75:40:double_calculateArea(int,int,int):a + b + c => a + b
+ODL_76:40:double_calculateArea(int,int,int):a + b + c => c
+ODL_77:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => a + b + c
+ODL_78:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => 2.0
+ODL_79:41:double_calculateArea(int,int,int):s - a => s
+ODL_80:41:double_calculateArea(int,int,int):s - a => a
+ODL_81:41:double_calculateArea(int,int,int):s * (s - a) => s
+ODL_82:41:double_calculateArea(int,int,int):s * (s - a) => s - a
+ODL_83:41:double_calculateArea(int,int,int):s - b => s
+ODL_84:41:double_calculateArea(int,int,int):s - b => b
+ODL_85:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) => s * (s - a)
+ODL_86:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) => s - b
+ODL_87:41:double_calculateArea(int,int,int):s - c => s
+ODL_88:41:double_calculateArea(int,int,int):s - c => c
+ODL_89:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) * (s - c) => s * (s - a) * (s - b)
+ODL_90:41:double_calculateArea(int,int,int):s * (s - a) * (s - b) * (s - c) => s - c
+CDL_1:21:java.lang.String_classifyTriangle(int,int,int):a <= 0 => a
+CDL_2:21:java.lang.String_classifyTriangle(int,int,int):b <= 0 => b
+CDL_3:21:java.lang.String_classifyTriangle(int,int,int):c <= 0 => c
+CDL_4:37:double_calculateArea(int,int,int):a <= 0 => a
+CDL_5:37:double_calculateArea(int,int,int):b <= 0 => b
+CDL_6:37:double_calculateArea(int,int,int):c <= 0 => c
+CDL_7:40:double_calculateArea(int,int,int):(a + b + c) / 2.0 => a + b + c

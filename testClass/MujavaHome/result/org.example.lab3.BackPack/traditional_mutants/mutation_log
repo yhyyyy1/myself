@@ -1,0 +1,276 @@
+AORB_1:13:int_backPack(int,int,int):n + 1 => n * 1
+AORB_2:13:int_backPack(int,int,int):n + 1 => n / 1
+AORB_3:13:int_backPack(int,int,int):n + 1 => n % 1
+AORB_4:13:int_backPack(int,int,int):n + 1 => n - 1
+AORB_5:13:int_backPack(int,int,int):capacity + 1 => capacity * 1
+AORB_6:13:int_backPack(int,int,int):capacity + 1 => capacity / 1
+AORB_7:13:int_backPack(int,int,int):capacity + 1 => capacity % 1
+AORB_8:13:int_backPack(int,int,int):capacity + 1 => capacity - 1
+AORB_9:19:int_backPack(int,int,int):i - 1 => i * 1
+AORB_10:19:int_backPack(int,int,int):i - 1 => i / 1
+AORB_11:19:int_backPack(int,int,int):i - 1 => i % 1
+AORB_12:19:int_backPack(int,int,int):i - 1 => i + 1
+AORB_13:20:int_backPack(int,int,int):i - 1 => i * 1
+AORB_14:20:int_backPack(int,int,int):i - 1 => i / 1
+AORB_15:20:int_backPack(int,int,int):i - 1 => i % 1
+AORB_16:20:int_backPack(int,int,int):i - 1 => i + 1
+AORB_17:20:int_backPack(int,int,int):i - 1 => i * 1
+AORB_18:20:int_backPack(int,int,int):i - 1 => i / 1
+AORB_19:20:int_backPack(int,int,int):i - 1 => i % 1
+AORB_20:20:int_backPack(int,int,int):i - 1 => i + 1
+AORB_21:20:int_backPack(int,int,int):i - 1 => i * 1
+AORB_22:20:int_backPack(int,int,int):i - 1 => i / 1
+AORB_23:20:int_backPack(int,int,int):i - 1 => i % 1
+AORB_24:20:int_backPack(int,int,int):i - 1 => i + 1
+AORB_25:20:int_backPack(int,int,int):w - weights[i - 1] => w * weights[i - 1]
+AORB_26:20:int_backPack(int,int,int):w - weights[i - 1] => w / weights[i - 1]
+AORB_27:20:int_backPack(int,int,int):w - weights[i - 1] => w % weights[i - 1]
+AORB_28:20:int_backPack(int,int,int):w - weights[i - 1] => w + weights[i - 1]
+AORB_29:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => values[i - 1] * dp[i - 1][w - weights[i - 1]]
+AORB_30:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => values[i - 1] / dp[i - 1][w - weights[i - 1]]
+AORB_31:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => values[i - 1] % dp[i - 1][w - weights[i - 1]]
+AORB_32:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => values[i - 1] - dp[i - 1][w - weights[i - 1]]
+AORB_33:20:int_backPack(int,int,int):i - 1 => i * 1
+AORB_34:20:int_backPack(int,int,int):i - 1 => i / 1
+AORB_35:20:int_backPack(int,int,int):i - 1 => i % 1
+AORB_36:20:int_backPack(int,int,int):i - 1 => i + 1
+AORB_37:22:int_backPack(int,int,int):i - 1 => i * 1
+AORB_38:22:int_backPack(int,int,int):i - 1 => i / 1
+AORB_39:22:int_backPack(int,int,int):i - 1 => i % 1
+AORB_40:22:int_backPack(int,int,int):i - 1 => i + 1
+AORS_1:14:int_backPack(int,int,int):i++ => i--
+AORS_2:15:int_backPack(int,int,int):w++ => w--
+AOIU_1:12:int_backPack(int,int,int):weights.length => -weights.length
+AOIU_2:13:int_backPack(int,int,int):n => -n
+AOIU_3:13:int_backPack(int,int,int):capacity => -capacity
+AOIU_4:20:int_backPack(int,int,int):i => -i
+AOIU_5:20:int_backPack(int,int,int):i => -i
+AOIU_6:20:int_backPack(int,int,int):w => -w
+AOIU_7:22:int_backPack(int,int,int):i => -i
+AOIU_8:22:int_backPack(int,int,int):w => -w
+AOIU_9:27:int_backPack(int,int,int):n => -n
+AOIU_10:27:int_backPack(int,int,int):capacity => -capacity
+AOIS_1:12:int_backPack(int,int,int):weights.length => weights.length++
+AOIS_2:12:int_backPack(int,int,int):weights.length => weights.length--
+AOIS_3:13:int_backPack(int,int,int):n => ++n
+AOIS_4:13:int_backPack(int,int,int):n => --n
+AOIS_5:13:int_backPack(int,int,int):n => n++
+AOIS_6:13:int_backPack(int,int,int):n => n--
+AOIS_7:13:int_backPack(int,int,int):capacity => ++capacity
+AOIS_8:13:int_backPack(int,int,int):capacity => --capacity
+AOIS_9:13:int_backPack(int,int,int):capacity => capacity++
+AOIS_10:13:int_backPack(int,int,int):capacity => capacity--
+AOIS_11:14:int_backPack(int,int,int):i => ++i
+AOIS_12:14:int_backPack(int,int,int):i => --i
+AOIS_13:14:int_backPack(int,int,int):i => i++
+AOIS_14:14:int_backPack(int,int,int):i => i--
+AOIS_15:14:int_backPack(int,int,int):n => ++n
+AOIS_16:14:int_backPack(int,int,int):n => --n
+AOIS_17:14:int_backPack(int,int,int):n => n++
+AOIS_18:14:int_backPack(int,int,int):n => n--
+AOIS_19:15:int_backPack(int,int,int):w => ++w
+AOIS_20:15:int_backPack(int,int,int):w => --w
+AOIS_21:15:int_backPack(int,int,int):w => w++
+AOIS_22:15:int_backPack(int,int,int):w => w--
+AOIS_23:15:int_backPack(int,int,int):capacity => ++capacity
+AOIS_24:15:int_backPack(int,int,int):capacity => --capacity
+AOIS_25:15:int_backPack(int,int,int):capacity => capacity++
+AOIS_26:15:int_backPack(int,int,int):capacity => capacity--
+AOIS_27:16:int_backPack(int,int,int):i => ++i
+AOIS_28:16:int_backPack(int,int,int):i => --i
+AOIS_29:16:int_backPack(int,int,int):i => i++
+AOIS_30:16:int_backPack(int,int,int):i => i--
+AOIS_31:16:int_backPack(int,int,int):w => ++w
+AOIS_32:16:int_backPack(int,int,int):w => --w
+AOIS_33:16:int_backPack(int,int,int):w => w++
+AOIS_34:16:int_backPack(int,int,int):w => w--
+AOIS_35:19:int_backPack(int,int,int):i => ++i
+AOIS_36:19:int_backPack(int,int,int):i => --i
+AOIS_37:19:int_backPack(int,int,int):i => i++
+AOIS_38:19:int_backPack(int,int,int):i => i--
+AOIS_39:19:int_backPack(int,int,int):w => w++
+AOIS_40:19:int_backPack(int,int,int):w => w--
+AOIS_41:20:int_backPack(int,int,int):i => ++i
+AOIS_42:20:int_backPack(int,int,int):i => --i
+AOIS_43:20:int_backPack(int,int,int):i => i++
+AOIS_44:20:int_backPack(int,int,int):i => i--
+AOIS_45:20:int_backPack(int,int,int):i => ++i
+AOIS_46:20:int_backPack(int,int,int):i => --i
+AOIS_47:20:int_backPack(int,int,int):i => i++
+AOIS_48:20:int_backPack(int,int,int):i => i--
+AOIS_49:20:int_backPack(int,int,int):w => ++w
+AOIS_50:20:int_backPack(int,int,int):w => --w
+AOIS_51:20:int_backPack(int,int,int):w => w++
+AOIS_52:20:int_backPack(int,int,int):w => w--
+AOIS_53:20:int_backPack(int,int,int):i => ++i
+AOIS_54:20:int_backPack(int,int,int):i => --i
+AOIS_55:20:int_backPack(int,int,int):i => i++
+AOIS_56:20:int_backPack(int,int,int):i => i--
+AOIS_57:20:int_backPack(int,int,int):i => ++i
+AOIS_58:20:int_backPack(int,int,int):i => --i
+AOIS_59:20:int_backPack(int,int,int):i => i++
+AOIS_60:20:int_backPack(int,int,int):i => i--
+AOIS_61:20:int_backPack(int,int,int):w => w++
+AOIS_62:20:int_backPack(int,int,int):w => w--
+AOIS_63:22:int_backPack(int,int,int):i => ++i
+AOIS_64:22:int_backPack(int,int,int):i => --i
+AOIS_65:22:int_backPack(int,int,int):i => i++
+AOIS_66:22:int_backPack(int,int,int):i => i--
+AOIS_67:22:int_backPack(int,int,int):w => w++
+AOIS_68:22:int_backPack(int,int,int):w => w--
+AOIS_69:27:int_backPack(int,int,int):n => n++
+AOIS_70:27:int_backPack(int,int,int):n => n--
+AOIS_71:27:int_backPack(int,int,int):capacity => capacity++
+AOIS_72:27:int_backPack(int,int,int):capacity => capacity--
+ROR_1:14:int_backPack(int,int,int): i <= n  =>   i > n
+ROR_2:14:int_backPack(int,int,int): i <= n  =>   i >= n
+ROR_3:14:int_backPack(int,int,int): i <= n  =>   i < n
+ROR_4:14:int_backPack(int,int,int): i <= n  =>   i == n
+ROR_5:14:int_backPack(int,int,int): i <= n  =>   i != n
+ROR_6:14:int_backPack(int,int,int): i <= n  =>   true
+ROR_7:14:int_backPack(int,int,int): i <= n  =>   false
+ROR_8:15:int_backPack(int,int,int): w <= capacity  =>   w > capacity
+ROR_9:15:int_backPack(int,int,int): w <= capacity  =>   w >= capacity
+ROR_10:15:int_backPack(int,int,int): w <= capacity  =>   w < capacity
+ROR_11:15:int_backPack(int,int,int): w <= capacity  =>   w == capacity
+ROR_12:15:int_backPack(int,int,int): w <= capacity  =>   w != capacity
+ROR_13:15:int_backPack(int,int,int): w <= capacity  =>   true
+ROR_14:15:int_backPack(int,int,int): w <= capacity  =>   false
+ROR_15:16:int_backPack(int,int,int): i == 0  =>   i > 0
+ROR_16:16:int_backPack(int,int,int): i == 0  =>   i >= 0
+ROR_17:16:int_backPack(int,int,int): i == 0  =>   i < 0
+ROR_18:16:int_backPack(int,int,int): i == 0  =>   i <= 0
+ROR_19:16:int_backPack(int,int,int): i == 0  =>   i != 0
+ROR_20:16:int_backPack(int,int,int): i == 0  =>   true
+ROR_21:16:int_backPack(int,int,int): i == 0  =>   false
+ROR_22:16:int_backPack(int,int,int): w == 0  =>   w > 0
+ROR_23:16:int_backPack(int,int,int): w == 0  =>   w >= 0
+ROR_24:16:int_backPack(int,int,int): w == 0  =>   w < 0
+ROR_25:16:int_backPack(int,int,int): w == 0  =>   w <= 0
+ROR_26:16:int_backPack(int,int,int): w == 0  =>   w != 0
+ROR_27:16:int_backPack(int,int,int): w == 0  =>   true
+ROR_28:16:int_backPack(int,int,int): w == 0  =>   false
+ROR_29:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   weights[i - 1] > w
+ROR_30:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   weights[i - 1] >= w
+ROR_31:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   weights[i - 1] < w
+ROR_32:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   weights[i - 1] == w
+ROR_33:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   weights[i - 1] != w
+ROR_34:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   true
+ROR_35:19:int_backPack(int,int,int): weights[i - 1] <= w  =>   false
+COR_1:16:int_backPack(int,int,int): i == 0 || w == 0  =>   i == 0 && w == 0
+COR_2:16:int_backPack(int,int,int): i == 0 || w == 0  =>   i == 0 ^ w == 0
+COI_1:14:int_backPack(int,int,int): i <= n  =>  !(i <= n)
+COI_2:15:int_backPack(int,int,int): w <= capacity  =>  !(w <= capacity)
+COI_3:16:int_backPack(int,int,int): i == 0  =>  !(i == 0)
+COI_4:16:int_backPack(int,int,int): w == 0  =>  !(w == 0)
+COI_5:16:int_backPack(int,int,int): i == 0 || w == 0  =>  !(i == 0 || w == 0)
+COI_6:19:int_backPack(int,int,int): weights[i - 1] <= w  =>  !(weights[i - 1] <= w)
+LOI_1:12:int_backPack(int,int,int):weights.length => ~weights.length
+LOI_2:13:int_backPack(int,int,int):n => ~n
+LOI_3:13:int_backPack(int,int,int):capacity => ~capacity
+LOI_4:14:int_backPack(int,int,int):i => ~i
+LOI_5:14:int_backPack(int,int,int):n => ~n
+LOI_6:14:int_backPack(int,int,int):i => ~i
+LOI_7:15:int_backPack(int,int,int):w => ~w
+LOI_8:15:int_backPack(int,int,int):capacity => ~capacity
+LOI_9:15:int_backPack(int,int,int):w => ~w
+LOI_10:16:int_backPack(int,int,int):i => ~i
+LOI_11:16:int_backPack(int,int,int):w => ~w
+LOI_12:17:int_backPack(int,int,int):i => ~i
+LOI_13:17:int_backPack(int,int,int):w => ~w
+LOI_14:19:int_backPack(int,int,int):i => ~i
+LOI_15:19:int_backPack(int,int,int):w => ~w
+LOI_16:20:int_backPack(int,int,int):i => ~i
+LOI_17:20:int_backPack(int,int,int):w => ~w
+LOI_18:20:int_backPack(int,int,int):i => ~i
+LOI_19:20:int_backPack(int,int,int):i => ~i
+LOI_20:20:int_backPack(int,int,int):w => ~w
+LOI_21:20:int_backPack(int,int,int):i => ~i
+LOI_22:20:int_backPack(int,int,int):i => ~i
+LOI_23:20:int_backPack(int,int,int):w => ~w
+LOI_24:22:int_backPack(int,int,int):i => ~i
+LOI_25:22:int_backPack(int,int,int):w => ~w
+LOI_26:22:int_backPack(int,int,int):i => ~i
+LOI_27:22:int_backPack(int,int,int):w => ~w
+LOI_28:27:int_backPack(int,int,int):n => ~n
+LOI_29:27:int_backPack(int,int,int):capacity => ~capacity
+SDL_1:15:int_backPack(int,int,int): int n = weights.length; int[][] dp = new int[n + 1][capacity + 1]; for (int i = 0; i <= n; i++) {     for (int w = 0; w <= capacity; w++) {         if (i == 0 || w == 0) {             dp[i][w] = 0;         } else {             if (weights[i - 1] <= w) {                 dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );             } else {                 dp[i][w] = dp[i - 1][w];             }         }     } } return dp[n][capacity];  =>   int n = weights.length; int[][] dp = new int[n + 1][capacity + 1]; return dp[n][capacity];
+SDL_2:15:int_backPack(int,int,int): for (int w = 0; w <= capacity; w++) {     if (i == 0 || w == 0) {         dp[i][w] = 0;     } else {         if (weights[i - 1] <= w) {             dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );         } else {             dp[i][w] = dp[i - 1][w];         }     } }  =>  
+SDL_3:27:int_backPack(int,int,int): for (int i = 0; i <= n; i++) {     for (int w = 0; w <= capacity; w++) {         if (i == 0 || w == 0) {             dp[i][w] = 0;         } else {             if (weights[i - 1] <= w) {                 dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );             } else {                 dp[i][w] = dp[i - 1][w];             }         }     } }  =>   for (int i = 0;; i++) {     for (int w = 0; w <= capacity; w++) {         if (i == 0 || w == 0) {             dp[i][w] = 0;         } else {             if (weights[i - 1] <= w) {                 dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );             } else {                 dp[i][w] = dp[i - 1][w];             }         }     } }
+SDL_4:27:int_backPack(int,int,int): for (int i = 0; i <= n; i++) {     for (int w = 0; w <= capacity; w++) {         if (i == 0 || w == 0) {             dp[i][w] = 0;         } else {             if (weights[i - 1] <= w) {                 dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );             } else {                 dp[i][w] = dp[i - 1][w];             }         }     } }  =>   for (int i = 0; i <= n;) {     for (int w = 0; w <= capacity; w++) {         if (i == 0 || w == 0) {             dp[i][w] = 0;         } else {             if (weights[i - 1] <= w) {                 dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );             } else {                 dp[i][w] = dp[i - 1][w];             }         }     } }
+SDL_5:16:int_backPack(int,int,int): if (i == 0 || w == 0) {     dp[i][w] = 0; } else {     if (weights[i - 1] <= w) {         dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );     } else {         dp[i][w] = dp[i - 1][w];     } }  =>  
+SDL_6:26:int_backPack(int,int,int): for (int w = 0; w <= capacity; w++) {     if (i == 0 || w == 0) {         dp[i][w] = 0;     } else {         if (weights[i - 1] <= w) {             dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );         } else {             dp[i][w] = dp[i - 1][w];         }     } }  =>   for (int w = 0;; w++) {     if (i == 0 || w == 0) {         dp[i][w] = 0;     } else {         if (weights[i - 1] <= w) {             dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );         } else {             dp[i][w] = dp[i - 1][w];         }     } }
+SDL_7:26:int_backPack(int,int,int): for (int w = 0; w <= capacity; w++) {     if (i == 0 || w == 0) {         dp[i][w] = 0;     } else {         if (weights[i - 1] <= w) {             dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );         } else {             dp[i][w] = dp[i - 1][w];         }     } }  =>   for (int w = 0; w <= capacity;) {     if (i == 0 || w == 0) {         dp[i][w] = 0;     } else {         if (weights[i - 1] <= w) {             dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );         } else {             dp[i][w] = dp[i - 1][w];         }     } }
+SDL_8:17:int_backPack(int,int,int): dp[i][w] = 0;  =>  
+SDL_9:25:int_backPack(int,int,int): if (i == 0 || w == 0) {     dp[i][w] = 0; } else {     if (weights[i - 1] <= w) {         dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );     } else {         dp[i][w] = dp[i - 1][w];     } }  =>   if (true) {     dp[i][w] = 0; } else {     if (weights[i - 1] <= w) {         dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );     } else {         dp[i][w] = dp[i - 1][w];     } }
+SDL_10:19:int_backPack(int,int,int): if (weights[i - 1] <= w) {     dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] ); } else {     dp[i][w] = dp[i - 1][w]; }  =>  
+SDL_11:20:int_backPack(int,int,int): dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] );  =>  
+SDL_12:24:int_backPack(int,int,int): if (weights[i - 1] <= w) {     dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] ); } else {     dp[i][w] = dp[i - 1][w]; }  =>   if (true) {     dp[i][w] = Math.max( values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w] ); } else {     dp[i][w] = dp[i - 1][w]; }
+SDL_13:22:int_backPack(int,int,int): dp[i][w] = dp[i - 1][w];  =>  
+SDL_14:28:int_backPack(int,int,int): return dp[n][capacity];  =>   return 0;
+VDL_1:13:int_backPack(int,int,int):n + 1 => 1
+VDL_2:13:int_backPack(int,int,int):capacity + 1 => 1
+VDL_3:14:int_backPack(int,int,int):i <= n => n
+VDL_4:14:int_backPack(int,int,int):i <= n => i
+VDL_5:14:int_backPack(int,int,int):i++ =>  
+VDL_6:15:int_backPack(int,int,int):w <= capacity => capacity
+VDL_7:15:int_backPack(int,int,int):w <= capacity => w
+VDL_8:15:int_backPack(int,int,int):w++ =>  
+VDL_9:16:int_backPack(int,int,int):i == 0 => 0
+VDL_10:16:int_backPack(int,int,int):w == 0 => 0
+VDL_11:19:int_backPack(int,int,int):i - 1 => 1
+VDL_12:19:int_backPack(int,int,int):weights[i - 1] <= w => w
+VDL_13:19:int_backPack(int,int,int):weights[i - 1] <= w => weights[i - 1]
+VDL_14:20:int_backPack(int,int,int):i - 1 => 1
+VDL_15:20:int_backPack(int,int,int):i - 1 => 1
+VDL_16:20:int_backPack(int,int,int):i - 1 => 1
+VDL_17:20:int_backPack(int,int,int):w - weights[i - 1] => weights[i - 1]
+VDL_18:20:int_backPack(int,int,int):w - weights[i - 1] => w
+VDL_19:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => dp[i - 1][w - weights[i - 1]]
+VDL_20:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => values[i - 1]
+VDL_21:20:int_backPack(int,int,int):i - 1 => 1
+VDL_22:22:int_backPack(int,int,int):i - 1 => 1
+ODL_1:13:int_backPack(int,int,int):n + 1 => n
+ODL_2:13:int_backPack(int,int,int):n + 1 => 1
+ODL_3:13:int_backPack(int,int,int):capacity + 1 => capacity
+ODL_4:13:int_backPack(int,int,int):capacity + 1 => 1
+ODL_5:14:int_backPack(int,int,int):i <= n => i
+ODL_6:14:int_backPack(int,int,int):i <= n => n
+ODL_7:14:int_backPack(int,int,int):i++ => i
+ODL_8:15:int_backPack(int,int,int):w <= capacity => w
+ODL_9:15:int_backPack(int,int,int):w <= capacity => capacity
+ODL_10:15:int_backPack(int,int,int):w++ => w
+ODL_11:16:int_backPack(int,int,int):i == 0 => i
+ODL_12:16:int_backPack(int,int,int):i == 0 => 0
+ODL_13:16:int_backPack(int,int,int):w == 0 => w
+ODL_14:16:int_backPack(int,int,int):w == 0 => 0
+ODL_15:16:int_backPack(int,int,int):i == 0 || w == 0 => i == 0
+ODL_16:16:int_backPack(int,int,int):i == 0 || w == 0 => w == 0
+ODL_17:19:int_backPack(int,int,int):i - 1 => i
+ODL_18:19:int_backPack(int,int,int):i - 1 => 1
+ODL_19:19:int_backPack(int,int,int):weights[i - 1] <= w => weights[i - 1]
+ODL_20:19:int_backPack(int,int,int):weights[i - 1] <= w => w
+ODL_21:20:int_backPack(int,int,int):i - 1 => i
+ODL_22:20:int_backPack(int,int,int):i - 1 => 1
+ODL_23:20:int_backPack(int,int,int):i - 1 => i
+ODL_24:20:int_backPack(int,int,int):i - 1 => 1
+ODL_25:20:int_backPack(int,int,int):i - 1 => i
+ODL_26:20:int_backPack(int,int,int):i - 1 => 1
+ODL_27:20:int_backPack(int,int,int):w - weights[i - 1] => w
+ODL_28:20:int_backPack(int,int,int):w - weights[i - 1] => weights[i - 1]
+ODL_29:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => values[i - 1]
+ODL_30:20:int_backPack(int,int,int):values[i - 1] + dp[i - 1][w - weights[i - 1]] => dp[i - 1][w - weights[i - 1]]
+ODL_31:20:int_backPack(int,int,int):i - 1 => i
+ODL_32:20:int_backPack(int,int,int):i - 1 => 1
+ODL_33:22:int_backPack(int,int,int):i - 1 => i
+ODL_34:22:int_backPack(int,int,int):i - 1 => 1
+CDL_1:13:int_backPack(int,int,int):n + 1 => n
+CDL_2:13:int_backPack(int,int,int):capacity + 1 => capacity
+CDL_3:16:int_backPack(int,int,int):i == 0 => i
+CDL_4:16:int_backPack(int,int,int):w == 0 => w
+CDL_5:19:int_backPack(int,int,int):i - 1 => i
+CDL_6:20:int_backPack(int,int,int):i - 1 => i
+CDL_7:20:int_backPack(int,int,int):i - 1 => i
+CDL_8:20:int_backPack(int,int,int):i - 1 => i
+CDL_9:20:int_backPack(int,int,int):i - 1 => i
+CDL_10:22:int_backPack(int,int,int):i - 1 => i

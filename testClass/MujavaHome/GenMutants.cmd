@@ -1,0 +1,1 @@
+java -cp mujava.jar;openjava.jar;junit.jar;tools.jar mujava.gui.GenMutantsMain
