@@ -1,6 +1,6 @@
 package org.example.lab6;
 
-public class BackPack {
+public class BackPackLab6 {
 
     public static int backPack(int[] weights, int[] values, int capacity) {
         int n = weights.length;
@@ -20,6 +20,5 @@ public class BackPack {
 
         return dp[n][capacity];
     }
-
 }
 

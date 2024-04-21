@@ -1,6 +1,6 @@
 package org.example.lab6;
 
-public class BubbleSort {
+public class BubbleSortLab6 {
 
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
