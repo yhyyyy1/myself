@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44c4a9a0-ec8f-4283-bf28-d1767f55c0b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classCode/LeetCode135.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab7/Quicksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lab7/lab7Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab6/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab6/BackPackLab6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab6/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab6/BubbleSortLab6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab6/lab6Test4BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lab6/lab6Test4BackPackLab6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab6/lab6Test4BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lab6/lab6Test4BubbleSortLab6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab5/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab5/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/classCode/TestTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,29 +52,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/myself/testClass/TestClass/lab6Only/src/main/java/com/example/lab6only&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Project/myself/testClass/TestClass/lab6Only/src/main/java/com/example/lab6only",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\myself\testClass\TestClass\lab6Only\src\main\java\com\example\lab6only" />
@@ -85,13 +85,13 @@
       <recent name="D:\Project\myself\testClass\TestClass\src\main\java\org\example\lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.lab6Test4BubbleSortLab6">
-    <configuration name="LeetCode135" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.classCode.LeetCode135" />
+  <component name="RunManager" selected="JUnit.TestTest.test">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lab7.QuickSort" />
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.classCode.*" />
+          <option name="PATTERN" value="org.example.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,17 +99,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab6Test4BackPackLab6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lab6.*" />
+          <option name="PATTERN" value="org.example.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.lab6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lab6.lab6Test4BackPackLab6" />
+      <option name="PACKAGE_NAME" value="org.example.lab7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lab7.Lab7Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testclass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.classCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.classCode" />
+      <option name="MAIN_CLASS_NAME" value="org.example.classCode.TestTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,47 +145,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab6Test4BubbleSortLab6.testLastElementUnchanged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lab7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lab6.*" />
+          <option name="PATTERN" value="org.example.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.lab6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lab6.lab6Test4BubbleSortLab6" />
-      <option name="METHOD_NAME" value="testLastElementUnchanged" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lab6Test4BubbleSortLab6,testSingleElement and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testclass" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="org.example.lab6.lab6Test4BubbleSortLab6,testSingleElement" />
-        <pattern testClass="org.example.lab6.lab6Test4BubbleSortLab6,testTwoElementsSorted" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="org.example.lab7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lab7.lab7Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode135" />
-      <item itemvalue="JUnit.lab6Test4BackPackLab6" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="JUnit.TestTest.test" />
+      <item itemvalue="JUnit.Lab7Test" />
+      <item itemvalue="JUnit.lab7Test" />
       <item itemvalue="JUnit.lab6Test4BubbleSortLab6" />
-      <item itemvalue="JUnit.lab6Test4BubbleSortLab6,testSingleElement and 1 more" />
-      <item itemvalue="JUnit.lab6Test4BubbleSortLab6.testLastElementUnchanged" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTest.test" />
+        <item itemvalue="JUnit.lab7Test" />
+        <item itemvalue="JUnit.Lab7Test" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="JUnit.lab6Test4BubbleSortLab6" />
-        <item itemvalue="JUnit.lab6Test4BubbleSortLab6.testLastElementUnchanged" />
-        <item itemvalue="JUnit.lab6Test4BackPackLab6" />
-        <item itemvalue="JUnit.lab6Test4BubbleSortLab6,testSingleElement and 1 more" />
-        <item itemvalue="Application.LeetCode135" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +217,9 @@
       <workItem from="1713531955852" duration="1182000" />
       <workItem from="1713664912982" duration="4333000" />
       <workItem from="1713683824525" duration="1548000" />
+      <workItem from="1713867807545" duration="537000" />
+      <workItem from="1713873997349" duration="364000" />
+      <workItem from="1714030110909" duration="949000" />
     </task>
     <servers />
   </component>

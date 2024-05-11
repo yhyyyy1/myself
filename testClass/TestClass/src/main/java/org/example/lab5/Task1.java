@@ -25,8 +25,8 @@ public class Task1 {
         element.sendKeys("selenium");
         //点击一下百度按钮
         webDriver.findElement(By.cssSelector("#su")).click();
-        WebDriverWait wait = new WebDriverWait(webDriver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h3")));
+//        WebDriverWait wait = new WebDriverWait(webDriver, 10);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h3")));
 
         // 使用CSS选择器获取所有的<h3>标签
         List<WebElement> elements = webDriver.findElements(By.cssSelector("h3"));
