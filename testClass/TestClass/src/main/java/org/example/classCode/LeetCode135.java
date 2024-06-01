@@ -43,8 +43,4 @@ public class LeetCode135 {
         return result;
     }
 
-    public static void main(String[] args) {
-        int[] input =new int[]{1,6,8,9,7,4,10,10,5,3,2};
-        System.out.println(candy(input));
-    }
 }
