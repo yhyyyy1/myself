@@ -736,8 +736,8 @@ elm|schema||elm|localhost|UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <schema id="225" parent="1" name="elm">
-      <IntrospectionTimestamp>2024-04-15.00:30:12</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-04-14.08:30:13</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2024-09-04.03:35:50</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2024-09-03.11:35:50</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <user id="226" parent="1" name="elm">
@@ -862,7 +862,7 @@ elm|schema||elm|localhost|UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="252" parent="228" name="cartId">
-      <AutoIncrement>112</AutoIncrement>
+      <AutoIncrement>165</AutoIncrement>
       <Comment>无意义编号</Comment>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
@@ -999,7 +999,7 @@ elm|schema||elm|localhost|UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="277" parent="231" name="daId">
-      <AutoIncrement>14</AutoIncrement>
+      <AutoIncrement>21</AutoIncrement>
       <Comment>送货地址编号</Comment>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
@@ -1100,7 +1100,7 @@ elm|schema||elm|localhost|UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="295" parent="233" name="odId">
-      <AutoIncrement>89</AutoIncrement>
+      <AutoIncrement>137</AutoIncrement>
       <Comment>订单明细编号</Comment>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
@@ -1135,7 +1135,7 @@ elm|schema||elm|localhost|UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="301" parent="234" name="orderId">
-      <AutoIncrement>95</AutoIncrement>
+      <AutoIncrement>154</AutoIncrement>
       <Comment>订单编号</Comment>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>

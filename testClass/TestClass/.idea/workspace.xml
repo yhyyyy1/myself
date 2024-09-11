@@ -5,10 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44c4a9a0-ec8f-4283-bf28-d1767f55c0b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aopdemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aopdemo/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aopdemo/service/AopDemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrange/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrange/YongYouT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrange/YongYouT3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/juctry/AtomicCounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/juctry/ProducerAndConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/juctry/print02100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/juctry/threadpooltry/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/TXmusic/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/TXmusic/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/TXmusic/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/face/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/gaode/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/gaode/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/gaode/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/jd/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/jd/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/jd/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/meituan/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/meituan/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/mihayo/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/mihayo/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/mihayo/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/oppo/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/oppo/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/oppo/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/qunaer/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/qunaer/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaohongshu/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaohongshu/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaomi/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaomi/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiecheng/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiecheng/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aspects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/72b377d0-cf12-4020-bd43-f7b52aebe91e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/72b377d0-cf12-4020-bd43-f7b52aebe91e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/72b377d0-cf12-4020-bd43-f7b52aebe91e/storage_v2/_src_/schema/elm.pogBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/72b377d0-cf12-4020-bd43-f7b52aebe91e/storage_v2/_src_/schema/elm.pogBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classCode/LeetCode135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/classCode/LeetCode135.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classCode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/classCode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classCode/LeetCode135.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classCode/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1/SolutionImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1/solution/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab2/testinput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab3/BackPack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab3/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab4/UpgradedTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab5/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab5/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab6/BackPackLab6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab6/BubbleSortLab6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab7/Quicksort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab1/lab1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab2/lab2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab3/lab3Test4BackPack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab3/lab3Test4BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab4/lab4Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab4/lab4Test4calculateArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab4/lab4Test4classifyTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab5/Task2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab6/lab6Test4BackPackLab6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab6/lab6Test4BubbleSortLab6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lab7/lab7Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +85,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +128,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/myself/testClass/TestClass/lab6Only/src/main/java/com/example/lab6only&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/asyncflow-java-0926&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,19 +147,26 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.Cycletest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\myself\testClass\TestClass\lab6Only\src\main\java\com\example\lab6only" />
       <recent name="D:\Project\myself\testClass\TestClass\src\test\java\org\example\lab6" />
       <recent name="D:\Project\myself\testClass\TestClass\src\main\java\org\example\lab6" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\myself\testClass\TestClass\src\main\resources" />
+      <recent name="D:\Project\myself\testClass\TestClass\src\main\java\org\example\aopdemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="LeetCode135" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.classCode.LeetCode135" />
+  <component name="RunManager" selected="Application.Test01">
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.writtenexamination.xiaohongshu.T1" />
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.classCode.*" />
+          <option name="PATTERN" value="org.example.writtenexamination.xiaohongshu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.classCode.Test" />
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.writtenexamination.xiaohongshu.T2" />
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.classCode.*" />
+          <option name="PATTERN" value="org.example.writtenexamination.xiaohongshu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,66 +187,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="T3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.writtenexamination.mihayo.T3" />
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lab7.*" />
+          <option name="PATTERN" value="org.example.writtenexamination.mihayo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.lab7" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lab7.Lab7Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.juctry.threadpooltry.Test01" />
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.classCode.*" />
+          <option name="PATTERN" value="org.example.juctry.threadpooltry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.classCode" />
-      <option name="MAIN_CLASS_NAME" value="org.example.classCode.TestTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.writtenexamination.mihayo.T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.writtenexamination.mihayo.T2" />
       <module name="testclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lab7.*" />
+          <option name="PATTERN" value="org.example.writtenexamination.mihayo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.lab7" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lab7.lab7Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode135" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.TestTest.test" />
-      <item itemvalue="JUnit.Lab7Test" />
-      <item itemvalue="JUnit.lab7Test" />
+      <item itemvalue="Application.T1" />
+      <item itemvalue="Application.T2" />
+      <item itemvalue="Application.T3" />
+      <item itemvalue="Application.Test01" />
+      <item itemvalue="Application.org.example.writtenexamination.mihayo.T2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LeetCode135" />
-        <item itemvalue="JUnit.TestTest.test" />
-        <item itemvalue="JUnit.lab7Test" />
-        <item itemvalue="JUnit.Lab7Test" />
+        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.T2" />
+        <item itemvalue="Application.T1" />
+        <item itemvalue="Application.T3" />
+        <item itemvalue="Application.org.example.writtenexamination.mihayo.T2" />
       </list>
     </recent_temporary>
   </component>
@@ -225,10 +294,113 @@
       <workItem from="1716692542439" duration="2049000" />
       <workItem from="1716947970910" duration="1406000" />
       <workItem from="1716951705453" duration="1483000" />
+      <workItem from="1717228961889" duration="1409000" />
+      <workItem from="1717236838335" duration="1892000" />
+      <workItem from="1717380543307" duration="1119000" />
+      <workItem from="1717587075195" duration="1948000" />
+      <workItem from="1717642736031" duration="1730000" />
+      <workItem from="1717655063799" duration="2766000" />
+      <workItem from="1717931401538" duration="2031000" />
+      <workItem from="1718171619393" duration="947000" />
+      <workItem from="1718175053387" duration="597000" />
+      <workItem from="1718176046961" duration="114000" />
+      <workItem from="1719645830326" duration="2738000" />
+      <workItem from="1720078278876" duration="3158000" />
+      <workItem from="1720151795023" duration="3174000" />
+      <workItem from="1720168084408" duration="2181000" />
+      <workItem from="1720180313617" duration="516000" />
+      <workItem from="1720233825800" duration="4594000" />
+      <workItem from="1720260072023" duration="1413000" />
+      <workItem from="1720405229993" duration="102000" />
+      <workItem from="1720405337932" duration="5833000" />
+      <workItem from="1721358159915" duration="8254000" />
+      <workItem from="1721535717285" duration="2845000" />
+      <workItem from="1721548461463" duration="1417000" />
+      <workItem from="1721616753885" duration="4518000" />
+      <workItem from="1721703875713" duration="6241000" />
+      <workItem from="1721718380509" duration="2095000" />
+      <workItem from="1721722251355" duration="797000" />
+      <workItem from="1721971400850" duration="1418000" />
+      <workItem from="1721973592135" duration="6034000" />
+      <workItem from="1721990265184" duration="6411000" />
+      <workItem from="1722167452814" duration="3618000" />
+      <workItem from="1722172340926" duration="172000" />
+      <workItem from="1722322544449" duration="496000" />
+      <workItem from="1722323050990" duration="1180000" />
+      <workItem from="1722335081255" duration="5380000" />
+      <workItem from="1722408859882" duration="3405000" />
+      <workItem from="1722489439761" duration="2358000" />
+      <workItem from="1722668082000" duration="5421000" />
+      <workItem from="1722749245143" duration="1199000" />
+      <workItem from="1722838030408" duration="326000" />
+      <workItem from="1722839707342" duration="645000" />
+      <workItem from="1722854909856" duration="444000" />
+      <workItem from="1722928140557" duration="605000" />
+      <workItem from="1723206470664" duration="1341000" />
+      <workItem from="1723633322426" duration="5792000" />
+      <workItem from="1723810331249" duration="5181000" />
+      <workItem from="1723876294396" duration="5638000" />
+      <workItem from="1723981384420" duration="4681000" />
+      <workItem from="1723987054661" duration="267000" />
+      <workItem from="1724309354739" duration="110000" />
+      <workItem from="1724325173612" duration="629000" />
+      <workItem from="1724326029365" duration="2538000" />
+      <workItem from="1724379728852" duration="1336000" />
+      <workItem from="1724384823479" duration="1852000" />
+      <workItem from="1724411018000" duration="2847000" />
+      <workItem from="1724465692508" duration="8441000" />
+      <workItem from="1724485061316" duration="3803000" />
+      <workItem from="1724494351140" duration="2546000" />
+      <workItem from="1724497956951" duration="614000" />
+      <workItem from="1724507248015" duration="675000" />
+      <workItem from="1724645670672" duration="522000" />
+      <workItem from="1724650420728" duration="1384000" />
+      <workItem from="1724737747492" duration="899000" />
+      <workItem from="1724757123061" duration="700000" />
+      <workItem from="1724909486053" duration="5148000" />
+      <workItem from="1725259260420" duration="679000" />
+      <workItem from="1725332697303" duration="3329000" />
+      <workItem from="1725355444116" duration="162000" />
+      <workItem from="1725357890519" duration="3076000" />
+      <workItem from="1725363241025" duration="131000" />
+      <workItem from="1725368166811" duration="85000" />
+      <workItem from="1725429580609" duration="1136000" />
+      <workItem from="1725434825478" duration="1311000" />
+      <workItem from="1725456180842" duration="2437000" />
+      <workItem from="1725511409989" duration="1212000" />
+      <workItem from="1725518406246" duration="3091000" />
+      <workItem from="1725534049979" duration="4551000" />
+      <workItem from="1725607513300" duration="4009000" />
+      <workItem from="1725695910338" duration="7496000" />
+      <workItem from="1725770098283" duration="8584000" />
+      <workItem from="1725800816342" duration="2863000" />
+      <workItem from="1725855983684" duration="3482000" />
+      <workItem from="1725942659455" duration="3834000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaohongshu/T2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaohongshu/T2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/writtenexamination/xiaohongshu/T2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
